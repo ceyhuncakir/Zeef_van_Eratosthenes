@@ -36,7 +36,7 @@ std::vector<int> find_prime_numbers(int n) {
 
 int main() {
 
-  std::vector<int> outcome = find_prime_numbers(1000);
+  std::vector<int> outcome = find_prime_numbers(1000000);
   int global = 0;
 
   for(auto e : outcome) {
